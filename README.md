@@ -15,11 +15,11 @@ Builds base images for NodeJS 6.x for the following OS:
 
 Note: Default command to execute is: `/usr/bin/node --version` so running below will simply print the node version.
 
-~~
+~~~
 docker run --rm lysender/node:latest
 docker run --rm lysender/node:ubuntu
 docker run --rm lysender/node:alpine
-~~
+~~~
 
 ## NodeJS and OS References
 
