@@ -3,5 +3,5 @@ MAINTAINER Leonel Baer <leonel@lysender.com>
 
 RUN apk add --no-cache bash nodejs
 
-CMD ["node", "--version"]
+CMD ["node"]
 

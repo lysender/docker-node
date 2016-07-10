@@ -11,5 +11,5 @@ RUN apt-get -y update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-CMD ["/usr/bin/node", "--version"]
+CMD ["node"]
 

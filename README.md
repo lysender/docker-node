@@ -8,17 +8,15 @@
 
 Builds base images for NodeJS 6.x for the following OS:
 
-* Ubuntu 16.04 Xenial - currently 6.3.0
-* Alpine Linux 3.4 - currently 6.2.0
+* Ubuntu 16.04 Xenial
+* Alpine Linux 3.4
 
 ## Test versions
 
-Note: Default command to execute is: `/usr/bin/node --version` so running below will simply print the node version.
-
 ~~~
-docker run --rm lysender/node:latest
-docker run --rm lysender/node:ubuntu
-docker run --rm lysender/node:alpine
+docker run --rm lysender/node:latest node --version
+docker run --rm lysender/node:ubuntu node --version
+docker run --rm lysender/node:alpine node --version
 ~~~
 
 ## NodeJS and OS References
