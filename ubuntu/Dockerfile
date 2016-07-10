@@ -8,7 +8,8 @@ RUN apt-get -y update && \
     curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
     apt-get -y update && \
     apt-get -y install nodejs && \
-    apt-get clean
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 CMD ["/usr/bin/node", "--version"]
 
